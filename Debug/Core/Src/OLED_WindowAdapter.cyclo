@@ -1,0 +1,12 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+WindowAdapter.h:20:3:prSunrise::WindowAdapter::WindowAdapter(int, int)	1
+OLED_WindowAdapter.h:26:10:prSunrise::Cursor::Cursor(int, int)	1
+OLED_WindowAdapter.h:27:15:void prSunrise::Cursor::setCursor(int, int)	1
+OLED_WindowAdapter.cpp:18:2:prSunrise::SSD1306_Adapter::SSD1306_Adapter(I2C_HandleTypeDef*)	1
+OLED_WindowAdapter.cpp:24:2:prSunrise::SSD1306_Adapter::~SSD1306_Adapter()	1
+OLED_WindowAdapter.cpp:26:7:void prSunrise::SSD1306_Adapter::setFont(FontDef_t*)	3
+OLED_WindowAdapter.cpp:33:8:void prSunrise::SSD1306_Adapter::setCursor(int, int)	1
+OLED_WindowAdapter.cpp:37:8:void prSunrise::printText(std::string, int, int, void*)	1
+OLED_WindowAdapter.cpp:41:8:void prSunrise::SSD1306_Adapter::WriteToDisp(uint8_t, prSunrise::writeMode)	1
+OLED_WindowAdapter.cpp:47:8:void prSunrise::SSD1306_Adapter::WriteData(uint8_t*, int)	1
+OLED_WindowAdapter.cpp:53:8:void prSunrise::SSD1306_Adapter::DISP_INIT()	1

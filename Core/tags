@@ -1,0 +1,64 @@
+ABS	./Src/ssd1306.cpp	/^#define ABS(x)   ((x) > 0 ? (x) : -(x))$/
+DISP_INIT	./Src/main.cpp	/^void DISP_INIT(){$/
+FONTS_GetStringSize	./Src/fonts.c	/^char* FONTS_GetStringSize(char* str, FONTS_SIZE_t*/
+FONTS_SIZE_t	./Inc/fonts.h	/^} FONTS_SIZE_t;$/
+FontDef_t	./Inc/fonts.h	/^} FontDef_t;$/
+SSD1306_COLOR_t	./Inc/ssd1306.h	/^} SSD1306_COLOR_t;$/
+SSD1306_Clear	./Src/ssd1306.cpp	/^void SSD1306_Clear (void)$/
+SSD1306_DrawBitmap	./Src/ssd1306.cpp	/^void SSD1306_DrawBitmap(int16_t x, int16_t y, cons/
+SSD1306_DrawCircle	./Src/ssd1306.cpp	/^void SSD1306_DrawCircle(int16_t x0, int16_t y0, in/
+SSD1306_DrawFilledCircle	./Src/ssd1306.cpp	/^void SSD1306_DrawFilledCircle(int16_t x0, int16_t /
+SSD1306_DrawFilledRectangle	./Src/ssd1306.cpp	/^void SSD1306_DrawFilledRectangle(uint16_t x, uint1/
+SSD1306_DrawFilledTriangle	./Src/ssd1306.cpp	/^void SSD1306_DrawFilledTriangle(uint16_t x1, uint1/
+SSD1306_DrawLine	./Src/ssd1306.cpp	/^void SSD1306_DrawLine(uint16_t x0, uint16_t y0, ui/
+SSD1306_DrawPixel	./Src/ssd1306.cpp	/^void SSD1306_DrawPixel(uint16_t x, uint16_t y, SSD/
+SSD1306_DrawRectangle	./Src/ssd1306.cpp	/^void SSD1306_DrawRectangle(uint16_t x, uint16_t y,/
+SSD1306_DrawTriangle	./Src/ssd1306.cpp	/^void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1/
+SSD1306_Fill	./Src/ssd1306.cpp	/^void SSD1306_Fill(SSD1306_COLOR_t color) {$/
+SSD1306_GotoXY	./Src/ssd1306.cpp	/^void SSD1306_GotoXY(uint16_t x, uint16_t y) {$/
+SSD1306_Init	./Src/ssd1306.cpp	/^uint8_t SSD1306_Init(void) {$/
+SSD1306_InvertDisplay	./Src/ssd1306.cpp	/^void SSD1306_InvertDisplay (int i)$/
+SSD1306_OFF	./Src/ssd1306.cpp	/^void SSD1306_OFF(void) {$/
+SSD1306_ON	./Src/ssd1306.cpp	/^void SSD1306_ON(void) {$/
+SSD1306_PutS	./Src/ssd1306.cpp	/^char SSD1306_PutS(std::string str, FontDef_t* Font/
+SSD1306_Putc	./Src/ssd1306.cpp	/^char SSD1306_Putc(const char ch, FontDef_t* Font, /
+SSD1306_Puts	./Src/ssd1306.cpp	/^char SSD1306_Puts(char* str, FontDef_t* Font, SSD1/
+SSD1306_ScrollLeft	./Src/ssd1306.cpp	/^void SSD1306_ScrollLeft(uint8_t start_row, uint8_t/
+SSD1306_ScrollRight	./Src/ssd1306.cpp	/^void SSD1306_ScrollRight(uint8_t start_row, uint8_/
+SSD1306_Scrolldiagleft	./Src/ssd1306.cpp	/^void SSD1306_Scrolldiagleft(uint8_t start_row, uin/
+SSD1306_Scrolldiagright	./Src/ssd1306.cpp	/^void SSD1306_Scrolldiagright(uint8_t start_row, ui/
+SSD1306_Stopscroll	./Src/ssd1306.cpp	/^void SSD1306_Stopscroll(void)$/
+SSD1306_ToggleInvert	./Src/ssd1306.cpp	/^void SSD1306_ToggleInvert(void) {$/
+SSD1306_UpdateScreen	./Src/ssd1306.cpp	/^void SSD1306_UpdateScreen(void) {$/
+SSD1306_WRITECOMMAND	./Src/ssd1306.cpp	/^#define SSD1306_WRITECOMMAND(command)      ssd1306/
+SSD1306_WRITEDATA	./Src/ssd1306.cpp	/^#define SSD1306_WRITEDATA(data)            ssd1306/
+SSD1306_t	./Src/ssd1306.cpp	/^} SSD1306_t;$/
+TURN_ON_DISP	./Src/OLED_WindowAdapter.cpp	/^#define TURN_ON_DISP() WRITE_COMMAND(0x8D);WRITE_C/
+WRITE_COMMAND	./Src/OLED_WindowAdapter.cpp	/^#define WRITE_COMMAND(cmd) WriteToDisp(cmd,COMMAND/
+WRITE_DATA	./Src/OLED_WindowAdapter.cpp	/^#define WRITE_DATA(dt) WriteToDisp(dt,DATA)$/
+Write_Command	./Src/main.cpp	/^void Write_Command(uint16_t add,uint8_t cmd){$/
+Write_Data	./Src/main.cpp	/^void Write_Data(uint16_t add,uint8_t* data,int buf/
+__attribute__	./Src/syscalls.c	/^__attribute__((weak)) int _read(int file, char *pt/
+_close	./Src/syscalls.c	/^int _close(int file)$/
+_execve	./Src/syscalls.c	/^int _execve(char *name, char **argv, char **env)$/
+_exit	./Src/syscalls.c	/^void _exit (int status)$/
+_fork	./Src/syscalls.c	/^int _fork(void)$/
+_fstat	./Src/syscalls.c	/^int _fstat(int file, struct stat *st)$/
+_getpid	./Src/syscalls.c	/^int _getpid(void)$/
+_isatty	./Src/syscalls.c	/^int _isatty(int file)$/
+_kill	./Src/syscalls.c	/^int _kill(int pid, int sig)$/
+_link	./Src/syscalls.c	/^int _link(char *old, char *new)$/
+_lseek	./Src/syscalls.c	/^int _lseek(int file, int ptr, int dir)$/
+_open	./Src/syscalls.c	/^int _open(char *path, int flags, ...)$/
+_sbrk	./Src/sysmem.c	/^void *_sbrk(ptrdiff_t incr)$/
+_stat	./Src/syscalls.c	/^int _stat(char *file, struct stat *st)$/
+_times	./Src/syscalls.c	/^int _times(struct tms *buf)$/
+_unlink	./Src/syscalls.c	/^int _unlink(char *name)$/
+_wait	./Src/syscalls.c	/^int _wait(int *status)$/
+assert_param	./Inc/stm32f4xx_hal_conf.h	/^  #define assert_param(expr) ((expr) ? (void)0U : /
+color_t	./Inc/OLED_WindowAdapter.h	/^	typedef enum Color_t{BLACK=0x00,WHITE=0x00}color_/
+initialise_monitor_handles	./Src/syscalls.c	/^void initialise_monitor_handles()$/
+ssd1306_I2C_Init	./Src/ssd1306.cpp	/^void ssd1306_I2C_Init() {$/
+ssd1306_I2C_Write	./Src/ssd1306.cpp	/^void ssd1306_I2C_Write(uint8_t address, uint8_t re/
+ssd1306_I2C_WriteMulti	./Src/ssd1306.cpp	/^void ssd1306_I2C_WriteMulti(uint8_t address, uint8/
+writeMode_t	./Inc/OLED_WindowAdapter.h	/^	typedef enum WriteMode{COMMAND=0x00,DATA=0x40}wri/

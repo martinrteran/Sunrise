@@ -1,0 +1,13 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+Alarm.cpp:10:1:prSunrise::Alarm::Alarm(int, int, int)	1
+Alarm.cpp:12:1:prSunrise::Alarm::Alarm(prSunrise::Clock*&)	1
+Alarm.cpp:14:1:prSunrise::Alarm::~Alarm()	1
+Alarm.cpp:18:6:bool prSunrise::Alarm::isTime() const	2
+Alarm.cpp:25:6:void prSunrise::Alarm::turnOff()	1
+Alarm.cpp:28:6:void prSunrise::Alarm::activate(bool)	1
+Alarm.cpp:31:6:void prSunrise::Alarm::modifyAlarm(prSunrise::Alarm&&)	1
+Alarm.cpp:36:6:void prSunrise::Alarm::modifyAlarm(int, int, int)	1
+Alarm.cpp:41:6:void prSunrise::Alarm::changeClock(prSunrise::Clock*)	1
+Alarm.cpp:45:1:void __static_initialization_and_destruction_0(int, int)	5
+Alarm.cpp:45:1:cpp)	1
+Alarm.cpp:45:1:cpp)	1

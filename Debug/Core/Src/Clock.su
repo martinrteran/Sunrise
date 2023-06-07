@@ -1,0 +1,24 @@
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h:6609:3:std::string std::__cxx11::to_string(int)	40	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/type_traits:62:17:constexpr std::integral_constant<_Tp, __v>::operator std::integral_constant<_Tp, __v>::value_type() const [with _Tp = bool; _Tp __v = true]	16	static
+../Core/Src/Clock.cpp:11:1:prSunrise::Clock::Clock(int, int, int)	24	static
+../Core/Src/Clock.cpp:13:6:bool prSunrise::Clock::operator==(const prSunrise::Clock&)	16	static
+../Core/Inc/Clock.h:5:7:constexpr prSunrise::Clock::Clock(prSunrise::Clock&&)	16	static
+../Core/Src/Clock.cpp:16:7:virtual prSunrise::Clock prSunrise::Clock::operator+(const prSunrise::Clock&)	40	static
+../Core/Inc/Clock.h:5:7:constexpr prSunrise::Clock& prSunrise::Clock::operator=(prSunrise::Clock&&)	16	static
+../Core/Src/Clock.cpp:32:6:virtual void prSunrise::Clock::increaseTime()	24	static
+../Core/Src/Clock.cpp:35:6:virtual void prSunrise::Clock::setTime(int8_t, int8_t, int8_t)	16	static
+../Core/Src/Clock.cpp:41:13:std::string prSunrise::Clock::toString()	160	static
+../Core/Inc/Clock.h:5:7:constexpr prSunrise::Clock::Clock(const prSunrise::Clock&)	16	static
+../Core/Src/Clock.cpp:45:7:virtual prSunrise::Clock prSunrise::Clock::operator++()	24	static
+../Core/Src/Clock.cpp:50:7:virtual prSunrise::Clock prSunrise::Clock::operator+(int)	32	static
+../Core/Src/Clock.cpp:70:7:virtual prSunrise::Clock prSunrise::Clock::operator-(int)	32	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/bits/charconv.h:47:5:constexpr unsigned int std::__detail::__to_chars_len(_Tp, int) [with _Tp = unsigned int]	32	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/bits/charconv.h:72:5:void std::__detail::__to_chars_10_impl(char*, unsigned int, _Tp) [with _Tp = unsigned int]	40	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h:6121:5:std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	56	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h:6155:5:std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	24	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/bits/allocator.h:212:7:bool std::operator==(const std::allocator<char>&, const std::allocator<char>&)	16	static
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/bits/move.h:101:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = std::__cxx11::basic_string<char>&]	16	static
+../Core/Src/Clock.cpp:88:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../Core/Src/Clock.cpp:88:1:cpp)	8	static
+../Core/Src/Clock.cpp:88:1:cpp)	8	static

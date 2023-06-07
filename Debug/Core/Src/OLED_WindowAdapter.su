@@ -1,0 +1,12 @@
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.200.202301161003/tools/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+../Core/Inc/WindowAdapter.h:20:3:prSunrise::WindowAdapter::WindowAdapter(int, int)	24	static
+../Core/Inc/OLED_WindowAdapter.h:26:10:prSunrise::Cursor::Cursor(int, int)	24	static
+../Core/Inc/OLED_WindowAdapter.h:27:15:void prSunrise::Cursor::setCursor(int, int)	24	static
+../Core/Src/OLED_WindowAdapter.cpp:18:2:prSunrise::SSD1306_Adapter::SSD1306_Adapter(I2C_HandleTypeDef*)	16	static
+../Core/Src/OLED_WindowAdapter.cpp:24:2:prSunrise::SSD1306_Adapter::~SSD1306_Adapter()	16	static
+../Core/Src/OLED_WindowAdapter.cpp:26:7:void prSunrise::SSD1306_Adapter::setFont(FontDef_t*)	16	static
+../Core/Src/OLED_WindowAdapter.cpp:33:8:void prSunrise::SSD1306_Adapter::setCursor(int, int)	24	static
+../Core/Src/OLED_WindowAdapter.cpp:37:8:void prSunrise::printText(std::string, int, int, void*)	24	static
+../Core/Src/OLED_WindowAdapter.cpp:41:8:void prSunrise::SSD1306_Adapter::WriteToDisp(uint8_t, prSunrise::writeMode)	32	static
+../Core/Src/OLED_WindowAdapter.cpp:47:8:void prSunrise::SSD1306_Adapter::WriteData(uint8_t*, int)	64	dynamic
+../Core/Src/OLED_WindowAdapter.cpp:53:8:void prSunrise::SSD1306_Adapter::DISP_INIT()	16	static

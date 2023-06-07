@@ -1,0 +1,11 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+main.cpp:77:5:int main()	2
+main.cpp:143:6:void SystemClock_Config()	3
+main.cpp:189:13:void MX_I2C1_Init()	2
+main.cpp:223:13:void MX_TIM2_Init()	4
+main.cpp:272:13:void MX_TIM10_Init()	2
+main.cpp:303:13:void MX_GPIO_Init()	1
+main.cpp:320:6:void Write_Command(uint16_t, uint8_t)	1
+main.cpp:326:6:void Write_Data(uint16_t, uint8_t*, int)	1
+main.cpp:333:6:void DISP_INIT()	1
+main.cpp:395:6:void Error_Handler()	1
